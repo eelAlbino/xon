@@ -10,6 +10,12 @@ class Product extends Model
 {
     use HasFactory;
 
+    protected $fillable = [
+        'name', // Название
+        'price', // Цена
+        'quantity'// Количество
+    ];
+
     /**
      * Значения опций товара
      * 

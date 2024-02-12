@@ -11,9 +11,9 @@ class ProductOptionValue extends Model
     use HasFactory;
 
     protected $fillable = [
-        'value',
-        'code',
-        'option_id'
+        'value', // Значение опции
+        'code', // Символьный код
+        'option_id' // ID связанной опции
     ];
 
     /**

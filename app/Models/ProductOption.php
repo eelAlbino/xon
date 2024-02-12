@@ -10,6 +10,11 @@ class ProductOption extends Model
 {
     use HasFactory;
 
+    protected $fillable = [
+        'name', // Название
+        'code' // Символьный код
+    ];
+
     /**
      * Значения опции
      * 
